@@ -12,17 +12,17 @@ int main ()
 
    int h_a, m_a, s_a;
 
-printf("What is the time?(HH:MM:SS)\n");
+   printf("What is the time?(HH:MM:SS)\n");
 
-scanf("%d:%d:%d", &h_c, &m_c, &s_c);
+   scanf("%d:%d:%d", &h_c, &m_c, &s_c);
 
-printf("What is the time of alarm?(HH:MM:SS)\n");
+   printf("What is the time of alarm?(HH:MM:SS)\n");
 
-scanf("%d:%d:%d", &h_a, &m_a, &s_a);
+   scanf("%d:%d:%d", &h_a, &m_a, &s_a);
 
-printf("\n");
+   printf("\n");
 
-/* While loopen kör tills "n" är noll, vilket är när current time samma som är alarm time */
+   /* While loopen kör tills "n" är noll, vilket är när current time samma som är alarm time */
 
    while (n)
 
