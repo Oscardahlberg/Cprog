@@ -22,7 +22,7 @@ int main ()
 
    printf("\n");
 
-   /* While loopen kör tills "n" är noll, vilket är när current time samma som är alarm time */
+   /* While loopen kör tills "n" är noll, vilket är när current time är samma som alarm time */
 
    while (n)
 
@@ -83,7 +83,7 @@ int main ()
 
       }
 
-      if ( n==1 )
+      if ( n == 1 )
       {
          /* Om tiden inte är samma som alarm tiden så skrivs current time ut och loopen börjar igen */
 
